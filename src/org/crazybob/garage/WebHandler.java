@@ -12,12 +12,14 @@ import java.io.IOException;
 /**
  * Web interface for garage door opener.
  */
-public class GarageHandler extends AbstractHandler {
+public class WebHandler extends AbstractHandler {
 
   private final GarageService garageService;
+  private Opener opener;
 
-  public GarageHandler(GarageService garageService) {
+  public WebHandler(GarageService garageService, Opener opener) {
     this.garageService = garageService;
+    this.opener = opener;
   }
 
   @Override
@@ -46,15 +48,19 @@ public class GarageHandler extends AbstractHandler {
     response.setContentType("text/html;charset=utf-8");
     response.setStatus(HttpServletResponse.SC_OK);
 
-    // TODO: Use an image instead.
-    response.getWriter().println("<form method=\"POST\" action=\"/garage\">" +
-        "<input type=\"submit\" value=\"Open\"></form>");
+    // TODO: Use an image instead. Make more mobile friendly.
+    response.getWriter().println("<html>" +
+        "<head><meta name=\"viewport\" content=\"width=device-width," +
+        " initial-scale=1.0, user-scalable=yes\"></head>" +
+        "<body><form method=\"POST\" action=\"/garage\">" +
+        "<input type=\"submit\" value=\"Open\">" +
+        "</form></body>" +
+        "</html>");
   }
 
   private void handlePost(HttpServletRequest request, HttpServletResponse response) throws IOException {
     Log.i("Garage", "Opening...");
-    // TODO: Open garage.
-
+    opener.press();
     response.sendRedirect("/garage");
   }
 }

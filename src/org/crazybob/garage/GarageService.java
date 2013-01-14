@@ -27,6 +27,8 @@ public class GarageService extends Service {
     startForeground(1, notification);
   }
 
+  private final Opener opener = new Opener();
+
   private boolean started = false;
 
   private void start() {
@@ -39,10 +41,15 @@ public class GarageService extends Service {
     // No need to clean up after failures. If anything raises an exception, the process should die.
     startWebServer();
     stayAwake();
+    startUsb();
     runInForeground();
 
     Toast.makeText(this, "Garage service started.", Toast.LENGTH_SHORT).show();
     started = true;
+  }
+
+  private void startUsb() {
+    new Thread(new UsbHandler(this, opener)).start();
   }
 
   // Keep a reference in case the lock gets released in the finalizer.
@@ -56,7 +63,7 @@ public class GarageService extends Service {
 
   private void startWebServer() {
     Server server = new Server(8080);
-    server.setHandler(new GarageHandler(this));
+    server.setHandler(new WebHandler(this, opener));
     try {
       server.start();
     } catch (Exception e) {

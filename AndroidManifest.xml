@@ -4,9 +4,12 @@
           android:versionCode="1"
           android:versionName="1.0">
     <uses-sdk android:minSdkVersion="10"/>
+    <uses-feature android:name="android.hardware.usb.accessory" />
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.WAKE_LOCK"/>
     <application android:label="@string/app_name">
+        <uses-library android:name="com.android.future.usb.accessory" />
+
         <activity android:name="Main"
                   android:label="@string/app_name"
                   android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen">
@@ -14,7 +17,21 @@
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
+            <intent-filter>
+                <action android:name="android.hardware.usb.action.USB_ACCESSORY_ATTACHED" />
+            </intent-filter>
+            <meta-data android:name="android.hardware.usb.action.USB_ACCESSORY_ATTACHED"
+                       android:resource="@xml/accessory_filter" />
         </activity>
+
         <service android:name=".GarageService"/>
+
+        <!-- Start service after phone boots. Hopefully we still have access to the USB accessory! -->
+        <receiver android:name=".StartService">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <category android:name="android.intent.category.HOME"/>
+            </intent-filter>
+        </receiver>
     </application>
 </manifest> 
