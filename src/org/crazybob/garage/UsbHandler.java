@@ -27,6 +27,7 @@ public class UsbHandler implements Runnable {
 
       if (accessoryList == null || accessoryList.length < 1) {
         Log.i("Garage", "No device connected.");
+        garageService.updateNotification("Waiting for USB device...");
         sleep(DELAY);
         continue;
       }
@@ -34,6 +35,7 @@ public class UsbHandler implements Runnable {
       UsbAccessory accessory = accessoryList[0];
       if (!manager.hasPermission(accessory)) {
         Log.i("Garage", "We don't have permission yet.");
+        garageService.updateNotification("Waiting for permission to access USB device...");
         sleep(DELAY);
         continue;
       }
@@ -41,6 +43,7 @@ public class UsbHandler implements Runnable {
       ParcelFileDescriptor pfd = manager.openAccessory(accessory);
       if (pfd == null) {
         Log.i("Garage", "Failed to open accessory.");
+        garageService.updateNotification("Failed to connect to USB device. Retrying...");
         sleep(DELAY);
         continue;
       }
@@ -52,11 +55,13 @@ public class UsbHandler implements Runnable {
 
         while (true) {
           if (opener.shouldOpen()) {
+            garageService.updateNotification("Opening door...");
             setRelay(out, 1);
             sleep(1);
             setRelay(out, 0);
             opener.reset();
           } else {
+            garageService.updateNotification("Waiting for button press...");
             opener.waitForPress();
           }
         }

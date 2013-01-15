@@ -20,15 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2120230-ff25-48f6-8231-517fcec959cc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/crazybob/garage/Opener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/crazybob/garage/StartService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/crazybob/garage/UsbHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/ant.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/org/crazybob/garage/GarageHandler.java" afterPath="$PROJECT_DIR$/src/org/crazybob/garage/WebHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/crazybob/garage/GarageService.java" afterPath="$PROJECT_DIR$/src/org/crazybob/garage/GarageService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/crazybob/garage/Main.java" afterPath="$PROJECT_DIR$/src/org/crazybob/garage/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/crazybob/garage/UsbHandler.java" afterPath="$PROJECT_DIR$/src/org/crazybob/garage/UsbHandler.java" />
     </list>
     <ignored path="garage.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,13 +29,13 @@
     <file path="/AndroidManifest.xml" changelist="f2120230-ff25-48f6-8231-517fcec959cc" time="1358135288511" ignored="false" />
     <file path="/strings.xml" changelist="f2120230-ff25-48f6-8231-517fcec959cc" time="1358123049446" ignored="false" />
     <file path="/a.xml" changelist="f2120230-ff25-48f6-8231-517fcec959cc" time="1358124205705" ignored="false" />
-    <file path="/GarageService.java" changelist="f2120230-ff25-48f6-8231-517fcec959cc" time="1358137463433" ignored="false" />
+    <file path="/GarageService.java" changelist="f2120230-ff25-48f6-8231-517fcec959cc" time="1358226223080" ignored="false" />
     <file path="/a.java" changelist="f2120230-ff25-48f6-8231-517fcec959cc" time="1358138675472" ignored="false" />
     <file path="/Main.java" changelist="f2120230-ff25-48f6-8231-517fcec959cc" time="1358138404054" ignored="false" />
     <file path="/fragment.java" changelist="f2120230-ff25-48f6-8231-517fcec959cc" time="1358132356563" ignored="false" />
     <file path="/GarageHandler.java" changelist="f2120230-ff25-48f6-8231-517fcec959cc" time="1358135046077" ignored="false" />
     <file path="/StartService.java" changelist="f2120230-ff25-48f6-8231-517fcec959cc" time="1358135169412" ignored="false" />
-    <file path="/UsbHandler.java" changelist="f2120230-ff25-48f6-8231-517fcec959cc" time="1358138801268" ignored="false" />
+    <file path="/UsbHandler.java" changelist="f2120230-ff25-48f6-8231-517fcec959cc" time="1358225939160" ignored="false" />
     <file path="$USER_HOME$/ADK_release_20120606/app/src/com/google/android/DemoKit/DemoKitActivity.java" changelist="f2120230-ff25-48f6-8231-517fcec959cc" time="1358136978277" ignored="false" />
     <file path="$USER_HOME$/ADK_release_20120606/app/src/com/google/android/DemoKit/RelayController.java" changelist="f2120230-ff25-48f6-8231-517fcec959cc" time="1358137110054" ignored="false" />
     <file path="/Opener.java" changelist="f2120230-ff25-48f6-8231-517fcec959cc" time="1358137398444" ignored="false" />
@@ -114,10 +107,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UsbHandler.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="UsbHandler.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/crazybob/garage/UsbHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="4" selection-start="939" selection-end="939" vertical-scroll-proportion="0.0987395">
+            <state line="63" column="0" selection-start="1938" selection-end="1938" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -137,10 +130,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GarageService.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="GarageService.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/org/crazybob/garage/GarageService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="15" selection-start="1443" selection-end="1443" vertical-scroll-proportion="0.0">
+            <state line="51" column="28" selection-start="1402" selection-end="1402" vertical-scroll-proportion="0.8613445">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -227,11 +220,11 @@
         <option value="$PROJECT_DIR$/src/org/crazybob/garage/StartService.java" />
         <option value="$PROJECT_DIR$/src/org/crazybob/garage/StartGarageService.java" />
         <option value="$PROJECT_DIR$/src/org/crazybob/garage/Opener.java" />
-        <option value="$PROJECT_DIR$/src/org/crazybob/garage/GarageService.java" />
         <option value="$PROJECT_DIR$/src/org/crazybob/garage/WebHandler.java" />
         <option value="$PROJECT_DIR$/src/org/crazybob/garage/Main.java" />
-        <option value="$PROJECT_DIR$/src/org/crazybob/garage/UsbHandler.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/org/crazybob/garage/UsbHandler.java" />
+        <option value="$PROJECT_DIR$/src/org/crazybob/garage/GarageService.java" />
       </list>
     </option>
   </component>
@@ -415,7 +408,7 @@
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Modules" />
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="OverrideImplement.combined" value="false" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
@@ -423,7 +416,7 @@
     <property name="options.lastSelected" value="editor.preferences.appearance" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/libs/jetty.jar!/" />
     <property name="AndroidLayoutSelectedEditor" value="text-editor" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.18997669" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
@@ -768,15 +761,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/crazybob/garage/GarageService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="15" selection-start="1443" selection-end="1443" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/crazybob/garage/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="13" selection-start="1121" selection-end="1121" vertical-scroll-proportion="0.0">
@@ -796,7 +780,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/crazybob/garage/UsbHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="4" selection-start="939" selection-end="939" vertical-scroll-proportion="0.0987395">
+        <state line="63" column="0" selection-start="1938" selection-end="1938" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/crazybob/garage/GarageService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="28" selection-start="1402" selection-end="1402" vertical-scroll-proportion="0.8613445">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
