@@ -24,15 +24,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d15b30d-e2d6-4b20-afd2-010314c5a9cc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/crazybob/garage/remote/GarageRemoteWidgetProvider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/crazybob/garage/remote/OpenGarage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/ant.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/xml/garage_remote_info.xml" afterPath="$PROJECT_DIR$/res/xml/garage_remote_info.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/main.xml" afterPath="$PROJECT_DIR$/res/layout/main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="remote.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="3d15b30d-e2d6-4b20-afd2-010314c5a9cc" time="1358286027198" ignored="false" />
-    <file path="/main.xml" changelist="3d15b30d-e2d6-4b20-afd2-010314c5a9cc" time="1358290277654" ignored="false" />
-    <file path="/strings.xml" changelist="3d15b30d-e2d6-4b20-afd2-010314c5a9cc" time="1358296701912" ignored="false" />
+    <file path="/main.xml" changelist="3d15b30d-e2d6-4b20-afd2-010314c5a9cc" time="1358299028589" ignored="false" />
+    <file path="/strings.xml" changelist="3d15b30d-e2d6-4b20-afd2-010314c5a9cc" time="1358299160449" ignored="false" />
     <file path="/AndroidManifest.xml" changelist="3d15b30d-e2d6-4b20-afd2-010314c5a9cc" time="1358293154218" ignored="false" />
     <file path="/GarageRemoteWidgetProvider.java" changelist="3d15b30d-e2d6-4b20-afd2-010314c5a9cc" time="1358296074886" ignored="false" />
     <file path="/garage_remote_info.xml" changelist="3d15b30d-e2d6-4b20-afd2-010314c5a9cc" time="1358289763729" ignored="false" />
@@ -115,15 +115,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PendingIntent.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/android-sdk/sources/android-17/android/app/PendingIntent.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="490" column="32" selection-start="23613" selection-end="23613" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AppWidgetManager.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/android-sdk/sources/android-17/android/appwidget/AppWidgetManager.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -164,15 +155,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Service.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/android-sdk/sources/android-17/android/app/Service.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="544" column="22" selection-start="26379" selection-end="26379" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Context.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/android-sdk/sources/android-17/android/content/Context.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -185,7 +167,28 @@
       <file leaf-file-name="strings.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="59" selection-start="159" selection-end="159" vertical-scroll-proportion="0.083577715">
+            <state line="4" column="0" selection-start="169" selection-end="169" vertical-scroll-proportion="0.11143695">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="0" selection-start="209" selection-end="209" vertical-scroll-proportion="-2.1923077">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="garage_remote_info.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/xml/garage_remote_info.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="26" selection-start="134" selection-end="134" vertical-scroll-proportion="-1.52">
               <folding />
             </state>
           </provider>
@@ -209,11 +212,11 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/res/layout/main.xml" />
-        <option value="$PROJECT_DIR$/res/xml/garage_remote_info.xml" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/org/crazybob/garage/remote/GarageRemoteWidgetProvider.java" />
         <option value="$PROJECT_DIR$/src/org/crazybob/garage/remote/OpenGarage.java" />
+        <option value="$PROJECT_DIR$/res/layout/main.xml" />
+        <option value="$PROJECT_DIR$/res/xml/garage_remote_info.xml" />
         <option value="$PROJECT_DIR$/res/values/strings.xml" />
       </list>
     </option>
@@ -643,23 +646,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="30" selection-start="301" selection-end="301" vertical-scroll-proportion="-2.9230769">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/xml/garage_remote_info.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="26" selection-start="134" selection-end="134" vertical-scroll-proportion="-1.52">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/android-sdk/sources/android-17/android/app/PendingIntent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="490" column="32" selection-start="23613" selection-end="23613" vertical-scroll-proportion="0.0">
@@ -688,13 +674,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/android-sdk/sources/android-17/android/os/Vibrator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="72" column="25" selection-start="2666" selection-end="2666" vertical-scroll-proportion="0.0">
@@ -709,15 +688,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/crazybob/garage/remote/GarageRemoteWidgetProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="811" selection-end="811" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/crazybob/garage/remote/OpenGarage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="69" column="7" selection-start="2314" selection-end="2314" vertical-scroll-proportion="0.0">
@@ -729,9 +699,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/crazybob/garage/remote/GarageRemoteWidgetProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="811" selection-end="811" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="209" selection-end="209" vertical-scroll-proportion="-2.1923077">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/xml/garage_remote_info.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="26" selection-start="134" selection-end="134" vertical-scroll-proportion="-1.52">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="59" selection-start="159" selection-end="159" vertical-scroll-proportion="0.083577715">
+        <state line="4" column="0" selection-start="169" selection-end="169" vertical-scroll-proportion="0.11143695">
           <folding />
         </state>
       </provider>

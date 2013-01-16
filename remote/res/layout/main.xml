@@ -5,9 +5,9 @@
     >
 <ImageView
     android:id="@+id/button"
-    android:layout_width="240dp"
-    android:layout_height="137dp"
-    android:layout_gravity="center_vertical|center_horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scaleType="fitCenter"
     android:src="@drawable/remote"
     />
 </FrameLayout>
